@@ -45,6 +45,52 @@ print(f"Rap: {rap}")
 print(f"Rock: {rock}")
 print(f"Swing: {swing}")
 
+# attempt 2 
+
+# print(dataIn)
+# myList = dataIn.split(",")
+# print(myList)
+# Rock = 0
+# Soul = 0
+# Pop = 0
+# PopRock = 0
+# R&B = 0
+# Metal = 0
+# Rap = 0
+# Swing = 0
+# PopRap = 0
+# genreList = []
+# 
+# for i in myList:
+#     if i == "Rock":
+#         rock += 1
+#     if i == "Soul":
+#         soul+=1
+#     if i == "Pop":
+#         pop+=1
+#     if i == "Pop Rock":
+#         poprock+=1
+#     if i == "R&B":
+#         r&b+=1
+#      if i == "Metal":
+#         metal+=1
+#      if i == "Rap":
+#         rap+=1
+#      if i == "Swing":
+#         swing+=1
+#      if i == "Pop Rap":
+#         poprap+=1
+#         
+# genreList.append(rock)
+# genreList.append(soul)
+# genreList.append(pop)
+# genreList.append(poprock)
+# genreList.append(r&b)
+# genreList.append(metal)
+# genreList.append(rap)
+# genreList.append(swing)
+# genreList.append(poprap)
+# print(genreList)
 
 
 

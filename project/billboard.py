@@ -92,7 +92,16 @@ print(f"Swing: {swing}")
 # genreList.append(poprap)
 # print(genreList)
 
+# creates a bar chart 
+xAxis = ["Rock","Soul","Pop","Pop Rock", "R&B", "Pop rap", "Rap", "Metal", "Swing",]  
+plt.bar(xAxis,genreList, color="violet")
+plt.title('Each Genres Popularity', color="violet")
+plt.xlabel('Genres', color="violet")
+plt.ylabel('Number Of Times It Appears', color="violet")
+plt.show()
 
+myList =(genreList)
+median = statistics.median
 
 
 
